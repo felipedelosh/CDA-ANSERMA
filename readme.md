@@ -18,12 +18,14 @@
 
 ## :play_or_pause_button:How to execute a project
 
-Double click
+Double click index.html or enter url: 
 
 ## :hammer_and_wrench:Tecnologías.
 
-- code programing
-- framework
+- HTML
+- CSS
+- JavaScript
+- 
 
 ## :warning:Advertencia
 
