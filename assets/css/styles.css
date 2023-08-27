@@ -23,7 +23,7 @@ HEADER
 }
 
 .container_img_logo img{
-    margin-left: 10%;
+    margin-left: 20%;
     width: 80%;
 }
 
@@ -104,6 +104,10 @@ FOOTER
     color: #6e7884;
     text-decoration:none;
 }
+
+.element_cursor_click{
+    cursor: pointer;
+}
 /*!
 END FOOTER
 */
@@ -112,12 +116,20 @@ END FOOTER
 /*!
 ======================================================
 */
-.btn-bottom-floating{
-    height: 50px;
-    width: 50px;
+
+.floating-button-whatsapp{
 	position: fixed;
 	bottom: 10%;
 	right: 10%;
 	transition: all 300ms ease 0ms;
 	z-index: 99;
+    background-color: #25d366;
+    border-radius: 50%;
+    padding: 1%;
+}
+
+.floating-button-whatsapp svg{
+    height: 40px;
+    width: 40px;
+    color: white;
 }
