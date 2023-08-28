@@ -26,6 +26,7 @@ $( ".class_element" ).hover(function() {
 
 
 
+
 /**
  * Enter a URL and open in new tab
  * @param {*} url 
@@ -50,6 +51,10 @@ function openHTML(url){
  */
 $(window).resize(function(){
     _responsiveRefresh();
+});
+$(window).scroll(function(){
+    let _h = $(window).scrollTop();
+    _scrollNavbar(_h);
 });
 
 
@@ -93,6 +98,14 @@ function _responsiveRefresh(){
         //alert("MobileOP11 horizontal");
     }else{
         //alert("DEFAULT WINDOW SIZE:\n"+"H:"+_h+";"+"W;"+_w);
+    }
+}
+
+function _scrollNavbar(_h){
+    if(_h < 10){
+        $('.navbar-desktop').css("background-color", "rgba(0, 0, 0, 0.0)");
+    }else if(_h >= 10){
+        $('.navbar-desktop').css("background-color", "#34445e");
     }
 }
 
