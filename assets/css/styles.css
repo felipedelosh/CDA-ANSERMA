@@ -18,14 +18,55 @@
 HEADER
 */
 .header{
+    width: 100%;
+    height: 80vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url('../img/banner/theftBanner.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.navbar-desktop{
     padding-top: 2%;
-    background-color: #6ea9dc;
 }
 
 .container_img_logo img{
     margin-left: 20%;
     width: 80%;
 }
+
+.container_welcome_message{
+    position: absolute;
+    top: 20%;
+    left: 4%;
+    z-index: 2;
+}
+
+.welcome_message{
+    color: white;
+}
+
+.container_btn_appointment p{
+    padding-top: 4px;
+    padding-left: 16px;
+    padding-bottom: 4px;
+    padding-right: 16px;
+    background-color: #156b40;
+    color: white;
+    border-radius: 10px;
+}
+.container_btn_appointment svg{
+    width: 5%;
+    height: 5%;
+    margin-left: 10px;
+}
+.btn_appointment{
+    width: 80%;
+}
+
+
+
 
 
 /*!
@@ -119,8 +160,8 @@ END FOOTER
 
 .floating-button-whatsapp{
 	position: fixed;
-	bottom: 10%;
-	right: 10%;
+	bottom: 5%;
+	right: 5%;
 	transition: all 300ms ease 0ms;
 	z-index: 99;
     background-color: #25d366;
