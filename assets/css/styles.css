@@ -139,12 +139,19 @@ BANNER FOOTER
     border-color: white;
 }
 
+.ul_banner_footer_links{
+    display: flex;
+    justify-content: center;
+}
+
+.ul_banner_footer_auditors{
+    display: flex;
+    justify-content: center;
+}
+
 .banner_footer_auditors{
     padding-top: 2%;
     width: 100%;
-    display: flex;
-    justify-content: space-around;
-    margin: 0;
 }
 
 .banner_footer_auditors img{
