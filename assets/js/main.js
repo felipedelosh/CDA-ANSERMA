@@ -105,7 +105,7 @@ function _scrollNavbar(_h){
     if(_h < 10){
         $('.navbar-desktop').css("background-color", "rgba(0, 0, 0, 0.0)");
     }else if(_h >= 10){
-        $('.navbar-desktop').css("background-color", "#34445e");
+        $('.navbar-desktop').css("background-color", "#212934");
     }
 }
 

@@ -61,9 +61,15 @@ HEADER
     height: 5%;
     margin-left: 10px;
 }
-.btn_appointment{
-    width: 80%;
-}
+.btn-appointment {
+    padding-top: 4px;
+    padding-left: 16px;
+    padding-bottom: 4px;
+    padding-right: 16px;
+    background-color: #156b40;
+    color: white;
+    border-radius: 10px;
+  }
 /*!
 END Header
 */
@@ -71,7 +77,42 @@ END Header
 =======================================================================
 */
 
+/*!
+banner services
+*/
+.services{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
 
+.container_services_img_left img{
+    width: 100%;
+    height: 100%;
+}
+
+.container_services_card_center{
+    background-color: white;
+    padding-top: 1%;
+    border: 1px;
+    border-radius: 10px;
+}
+
+.container_services_card_center img{
+    width: 100%;
+    height: 100%;
+}
+
+
+.container_services_img_right img{
+    width: 100%;
+    height: 100%;
+}
+/*!
+END banner services
+*/
+/*!
+=======================================================================
+*/
 
 
 
@@ -110,7 +151,7 @@ END Father Effects
 FOOTER
 */
 .footer{
-    background-color: #343840;
+    background-color: #212934;
     padding: 0 0 49px 0;
 }
 
