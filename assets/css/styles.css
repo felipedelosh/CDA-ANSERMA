@@ -145,7 +145,37 @@ END Father Effects
 =======================================================================
 */
 
+/*!
+BANNER FOOTER
+*/
+.banner_footer{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #1e2530;
+}
 
+.banner_footer p{
+    color: white;
+}
+
+.hr_banner_footer{
+    border-color: white;
+}
+
+.banner_footer_auditors{
+    padding-top: 2%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+}
+
+.banner_footer_auditors img{
+    height: 40px;
+}
+/*!
+END BANNER FOOTER
+*/
 
 /*!
 FOOTER
