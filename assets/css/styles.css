@@ -66,7 +66,7 @@ HEADER
     padding-left: 16px;
     padding-bottom: 4px;
     padding-right: 16px;
-    background-color: #156b40;
+    background-color: #25ae57;
     color: white;
     border-radius: 10px;
   }
@@ -80,7 +80,7 @@ END Header
 /*!
 banner services
 */
-.services{
+.banner_services{
     margin-top: 2%;
     margin-bottom: 2%;
 }
@@ -115,6 +115,47 @@ END banner services
 */
 
 
+
+/*!
+services
+*/
+.services{
+    background-color: #1e2530;
+    margin-top: 2%;
+    padding-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    color: white;
+}
+
+
+.conatainer_ico_cars_services{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.conatainer_ico_cars_services img{
+    margin-top: 8%;
+    margin-bottom: 2%;
+    max-width: 100%;
+    max-width: 100%;
+}
+
+.container_btn_view_rates{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.btn_view_rates{
+    margin-top: 2%;
+    margin-bottom: 2%;    
+}
+
+/*!
+END services
+*/
 
 
 
