@@ -156,12 +156,60 @@ services
 /*!
 END services
 */
-
-
-
 /*!
 =======================================================================
 */
+
+/*!
+KPI
+*/
+.kpi{
+    margin-top: 2%;
+    margin-bottom: 8%;
+}
+
+.kpi svg{
+    color: grey;
+    width: 40%;
+    max-width: 150px; 
+    height: auto; 
+}
+
+.cointainer_kpi_text{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-46%);
+    text-align: center;
+    margin-top: 55px;
+}
+
+.kpi_total{
+    font-weight: 800;
+    font-size: 2.3em;
+    color: red;
+}
+
+.kpi_description{
+    transform: translateY(-46%);
+    color: black;
+    font-weight: bold;
+}
+
+.col_kpi_container{
+    position: relative;
+    width: fit-content;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/*!
+END KPI
+*/
+/*!
+=======================================================================
+*/
+
 
 /*!
 BANNER FOOTER
