@@ -210,6 +210,60 @@ END KPI
 =======================================================================
 */
 
+/*!
+Services Rates
+*/
+.services_rates{
+    margin-top: 2%;
+    padding-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    background-color: #1a1f27;
+}
+
+.title_description_rate{
+    color: white;
+}
+
+.card_rates_container{
+    background-color: #19273a;
+    padding: 2%;
+    border-radius: 10px;
+}
+
+.price_total_value_rate{
+    color: green;
+}
+
+.price_total_value_rate svg{
+    color: green;
+    height: 8%;
+    width: 8%; 
+}
+
+
+.ul_description_rate svg{
+    color: green;
+    height: 20px;
+    width: 20px; 
+}
+
+.ul_description_rate li{
+    color: white;
+}
+
+.ul_list_rates_container{
+    display: flex;
+    justify-content: center;
+}
+
+/*!
+END Services Rates
+*/
+/*!
+=======================================================================
+*/
+
 
 /*!
 BANNER FOOTER
@@ -406,6 +460,14 @@ This is a most comond effects in page
 */
 .linkeable_element{
     cursor: pointer;
+}
+
+.element_cursor_click{
+    cursor: pointer;
+}
+
+.ul_not_style{
+    list-style: none;
 }
 
 .ul_inline{
