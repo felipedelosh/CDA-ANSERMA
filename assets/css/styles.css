@@ -170,15 +170,15 @@ KPI
 
 .kpi svg{
     color: grey;
-    width: 40%;
+    width: 50%;
     max-width: 150px; 
     height: auto; 
 }
 
 .cointainer_kpi_text{
     position: absolute;
-    top: 50%;
-    transform: translateY(-46%);
+    top: 30%;
+    transform: translateX(+40%);
     text-align: center;
     margin-top: 55px;
 }
