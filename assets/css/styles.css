@@ -52,7 +52,7 @@ HEADER
     padding-left: 16px;
     padding-bottom: 4px;
     padding-right: 16px;
-    background-color: #156b40;
+    background-color: #25d366;
     color: white;
     border-radius: 10px;
 }
@@ -426,6 +426,26 @@ END Instagram BTN
 /*!
 END BANNER FOOTER
 */
+
+
+/*!
+we are
+*/
+.we_are{
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+
+
+/*!
+END we are
+*/
+/*!
+======================================================
+*/
+
+
+
 
 /*!
 FOOTER
