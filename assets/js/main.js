@@ -9,8 +9,16 @@ $( ".btn-to-click" ).on( "click", function() {
 });
 
 //EXTERNAL LINKS
-$( ".btn-external-click" ).on( "click", function() {
-    //new tab
+$( ".btn_isntagram" ).on( "click", function() {
+    openNewTab("https://www.instagram.com/cda_anserma/");
+});
+
+$( ".btn_facebook" ).on( "click", function() {
+    openNewTab("https://facebook.com/cdaanserma");
+});
+
+$( ".go-afe-portfolio" ).on( "click", function() {
+    openNewTab("https://felipedelosh.github.io/AFE-PORTFOLIO");
 });
 
 
