@@ -9,6 +9,10 @@ $( ".btn-to-click" ).on( "click", function() {
 });
 
 //EXTERNAL LINKS
+$( ".btn_whatsapp" ).on( "click", function() {
+    openNewTab("https://api.whatsapp.com/send/?phone=%2B573204535935&text=hola%2C+Deseo+agendar+una+cita.&type=phone_number&app_absent=0");
+});
+
 $( ".btn_isntagram" ).on( "click", function() {
     openNewTab("https://www.instagram.com/cda_anserma/");
 });
