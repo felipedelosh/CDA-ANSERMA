@@ -31,7 +31,7 @@ HEADER
     padding-right: 4%;
 }
 
-.dropdown-item{
+.dropdown-menu li .dropdown-item{
     color: black;
 }
 
