@@ -73,6 +73,7 @@ $(window).scroll(function(){
 function _responsiveRefresh(){
     var _w = $(window).width();
     var _h = $(window).height();
+    _scrollNavbar($(window).scrollTop());
     var iphoneMiniH = _w >= 360 && _w <= 399 && _h >= 800 && _h <= 850;
     var iphoneProH = _w >= 400 && _w <= 450 && _h >= 900 && _h <= 999;
     var iphone5SEH = _w >= 300 && _w <= 340 && _h >= 550 && _h <= 600;

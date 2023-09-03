@@ -27,6 +27,10 @@ HEADER
     background-attachment: fixed;
 }
 
+.container_menu_navbar_desktop #navbarNavDropdown{
+    padding-right: 4%;
+}
+
 .dropdown-item{
     color: black;
 }
