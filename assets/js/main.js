@@ -65,15 +65,15 @@ $(window).resize(function(){
     _responsiveRefresh();
 });
 $(window).scroll(function(){
-    let _h = $(window).scrollTop();
-    _scrollNavbar(_h);
+    let _t = $(window).scrollTop();
+    _NavbarController(_t, $(window).width(), $(window).height());
 });
-
 
 function _responsiveRefresh(){
     var _w = $(window).width();
     var _h = $(window).height();
-    _scrollNavbar($(window).scrollTop());
+    var _t = $(window).scrollTop();
+    _NavbarController(_t, _w, _h);
     var iphoneMiniH = _w >= 360 && _w <= 399 && _h >= 800 && _h <= 850;
     var iphoneProH = _w >= 400 && _w <= 450 && _h >= 900 && _h <= 999;
     var iphone5SEH = _w >= 300 && _w <= 340 && _h >= 550 && _h <= 600;
@@ -114,12 +114,28 @@ function _responsiveRefresh(){
     }
 }
 
-function _scrollNavbar(_h){
-    if(_h < 10){
+
+function _NavbarController(_t, _w, _h){
+    //Color
+    if(_t < 10){
         $('.navbar_desktop').css("background-color", "rgba(0, 0, 0, 0.0)");
-    }else if(_h >= 10){
+        $('.navbar_mobile').css("background-color", "rgba(0, 0, 0, 0.0)");
+    }else if(_t >= 10){
         $('.navbar_desktop').css("background-color", "#212934");
+        $('.navbar_mobile').css("background-color", "#212934");
     }
+
+    //Show - Hide
+    let _isDisplayNavbarDesk = $('#navbarNavDropdown').css("display") !== "none";
+    if(_isDisplayNavbarDesk){
+        $('.container_logo_navbar_desktop').css("display", "block");
+        $('.navbar_mobile').css("display", "none");
+    }else{
+        $('.container_logo_navbar_desktop').css("display", "none");
+        $('.navbar_mobile').css("display", "block");
+    }
+
 }
+
 
 _responsiveRefresh();
