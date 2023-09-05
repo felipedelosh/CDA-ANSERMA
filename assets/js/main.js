@@ -130,6 +130,11 @@ function _responsiveConfigMobileH(){
     $('.container_services_card_center').addClass("col-12");
     $('.container_services_img_right').css("display", "none");
     //Banner Services
+    //Services
+    $('.container_col_service_ico').removeClass("col");
+    $('.container_col_service_ico').removeClass("col-6");
+    $('.container_col_service_ico').addClass("col-12");
+    //Services
 }
 
 function _responsiveConfigTablet(){
@@ -139,6 +144,11 @@ function _responsiveConfigTablet(){
     $('.container_services_card_center').addClass("col-12");
     $('.container_services_img_right').css("display", "none");
     //Banner Services
+    //Services
+    $('.container_col_service_ico').removeClass("col");
+    $('.container_col_service_ico').removeClass("col-12");
+    $('.container_col_service_ico').addClass("col-6");
+    //Services
 }
 
 function _responsiveConfigDesktop(){
@@ -148,6 +158,11 @@ function _responsiveConfigDesktop(){
     $('.container_services_card_center').addClass("col-6");
     $('.container_services_img_right').css("display", "block");
     //Banner Services
+    //Services
+    $('.container_col_service_ico').removeClass("col-12");
+    $('.container_col_service_ico').removeClass("col-6");
+    $('.container_col_service_ico').addClass("col");
+    //Services
 }
 
 function _NavbarController(_t, _w, _h){
