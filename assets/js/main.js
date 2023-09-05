@@ -135,6 +135,14 @@ function _responsiveConfigMobileH(){
     $('.container_col_service_ico').removeClass("col-6");
     $('.container_col_service_ico').addClass("col-12");
     //Services
+    //KPI
+    $('.col_kpi_container').removeClass("col");
+    $('.col_kpi_container').removeClass("col-6");
+    $('.col_kpi_container').addClass("col-12");
+    $('.cointainer_kpi_text').css("top", "0%");
+    $('.cointainer_kpi_text').css("transform", "translateX(12%)");
+    $('.cointainer_kpi_text').css("margin-top", "40px");
+    //KPI
 }
 
 function _responsiveConfigTablet(){
@@ -149,6 +157,14 @@ function _responsiveConfigTablet(){
     $('.container_col_service_ico').removeClass("col-12");
     $('.container_col_service_ico').addClass("col-6");
     //Services
+    //KPI
+    $('.col_kpi_container').removeClass("col");
+    $('.col_kpi_container').removeClass("col-12");
+    $('.col_kpi_container').addClass("col-6");
+    $('.cointainer_kpi_text').css("top", "0%");
+    $('.cointainer_kpi_text').css("transform", "translateX(24%)");
+    $('.cointainer_kpi_text').css("margin-top", "45px");
+    //KPI
 }
 
 function _responsiveConfigDesktop(){
@@ -163,6 +179,14 @@ function _responsiveConfigDesktop(){
     $('.container_col_service_ico').removeClass("col-6");
     $('.container_col_service_ico').addClass("col");
     //Services
+    //KPI
+    $('.col_kpi_container').removeClass("col-6");
+    $('.col_kpi_container').removeClass("col-12");
+    $('.col_kpi_container').addClass("col");
+    $('.cointainer_kpi_text').css("top", "30%");
+    $('.cointainer_kpi_text').css("transform", "translateX(+40%)");
+    $('.cointainer_kpi_text').css("margin-top", "55px");
+    //KPI
 }
 
 function _NavbarController(_t, _w, _h){
