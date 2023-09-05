@@ -143,6 +143,10 @@ function _responsiveConfigMobileH(){
     $('.cointainer_kpi_text').css("transform", "translateX(12%)");
     $('.cointainer_kpi_text').css("margin-top", "40px");
     //KPI
+    //Rates
+    $('.container_col_rate_service').removeClass("col");
+    $('.container_col_rate_service').addClass("col-12");
+    //Rates
 }
 
 function _responsiveConfigTablet(){
