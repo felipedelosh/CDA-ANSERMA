@@ -132,6 +132,7 @@ function _responsiveConfigMobileH(){
     $('.container_col_service_ico').removeClass("col");
     $('.container_col_service_ico').removeClass("col-6");
     $('.container_col_service_ico').addClass("col-12");
+    $('.container_row_img_service img').css("width", "50%");
     //Services
     //KPI
     $('.col_kpi_container').removeClass("col");
@@ -169,6 +170,7 @@ function _responsiveConfigTablet(){
     $('.container_col_service_ico').removeClass("col");
     $('.container_col_service_ico').removeClass("col-12");
     $('.container_col_service_ico').addClass("col-6");
+    $('.container_row_img_service img').css("width", "60%");
     //Services
     //KPI
     $('.col_kpi_container').removeClass("col");
@@ -206,6 +208,7 @@ function _responsiveConfigDesktop(){
     $('.container_col_service_ico').removeClass("col-12");
     $('.container_col_service_ico').removeClass("col-6");
     $('.container_col_service_ico').addClass("col");
+    $('.container_row_img_service img').css("width", "80%");
     //Services
     //KPI
     $('.col_kpi_container').removeClass("col-6");
