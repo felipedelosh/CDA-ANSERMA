@@ -148,6 +148,12 @@ function _responsiveConfigMobileH(){
     $('.container_col_rate_service').removeClass("col-6");
     $('.container_col_rate_service').addClass("col-12");
     //Rates
+    //we are
+    $('.container_mision').removeClass("col");
+    $('.container_mision').addClass("col-12");
+    $('.container_vision').removeClass("col");
+    $('.container_vision').addClass("col-12");
+    //we are
 }
 
 function _responsiveConfigTablet(){
@@ -175,6 +181,12 @@ function _responsiveConfigTablet(){
     $('.container_col_rate_service').removeClass("col-12");
     $('.container_col_rate_service').addClass("col-6");
     //Rates
+    //we are
+    $('.container_mision').removeClass("col-12");
+    $('.container_mision').addClass("col");
+    $('.container_vision').removeClass("col-12");
+    $('.container_vision').addClass("col");
+    //we are
 }
 
 function _responsiveConfigDesktop(){
@@ -202,6 +214,12 @@ function _responsiveConfigDesktop(){
     $('.container_col_rate_service').removeClass("col-12");
     $('.container_col_rate_service').addClass("col");
     //Rates
+    //we are
+    $('.container_mision').removeClass("col-12");
+    $('.container_mision').addClass("col");
+    $('.container_vision').removeClass("col-12");
+    $('.container_vision').addClass("col");
+    //we are
 }
 
 function _NavbarController(_t, _w, _h){
