@@ -121,8 +121,6 @@ function _responsiveRefresh(){
     }
 }
 
-
-
 function _responsiveConfigMobileH(){
     //Banner Services
     $('.container_services_img_left').css("display", "none");
@@ -154,6 +152,10 @@ function _responsiveConfigMobileH(){
     $('.container_vision').removeClass("col");
     $('.container_vision').addClass("col-12");
     //we are
+    //Banner footer
+    $('.container_col_banner_footer').removeClass("col-4");
+    $('.container_col_banner_footer').addClass("col-12");
+    //Banner footer
 }
 
 function _responsiveConfigTablet(){
@@ -187,6 +189,10 @@ function _responsiveConfigTablet(){
     $('.container_vision').removeClass("col-12");
     $('.container_vision').addClass("col");
     //we are
+    //Banner footer
+    $('.container_col_banner_footer').removeClass("col-12");
+    $('.container_col_banner_footer').addClass("col-4");
+    //Banner footer
 }
 
 function _responsiveConfigDesktop(){
@@ -220,6 +226,10 @@ function _responsiveConfigDesktop(){
     $('.container_vision').removeClass("col-12");
     $('.container_vision').addClass("col");
     //we are
+    //Banner footer
+    $('.container_col_banner_footer').removeClass("col-12");
+    $('.container_col_banner_footer').addClass("col-4");
+    //Banner footer
 }
 
 function _NavbarController(_t, _w, _h){
