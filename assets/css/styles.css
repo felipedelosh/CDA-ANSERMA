@@ -365,18 +365,15 @@ services
     color: white;
 }
 
-
-.conatainer_ico_cars_services{
+.container_row_img_service{
+    margin-bottom: 10%;
     width: 100%;
     display: flex;
     justify-content: center;
 }
 
-.conatainer_ico_cars_services img{
-    margin-top: 8%;
-    margin-bottom: 2%;
-    max-width: 100%;
-    max-width: 100%;
+.container_row_img_service img{
+    width: 60%;
 }
 
 .container_btn_view_rates{
@@ -389,7 +386,6 @@ services
     margin-top: 2%;
     margin-bottom: 2%;    
 }
-
 /*!
 END services
 */
