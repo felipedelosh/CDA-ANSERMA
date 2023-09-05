@@ -111,9 +111,44 @@ function _responsiveRefresh(){
         //alert("MobileOP11 horizontal");
     }else{
         //alert("DEFAULT WINDOW SIZE:\n"+"H:"+_h+";"+"W;"+_w);
+        if (_w < 700) {
+            _responsiveConfigMobileH();
+        }else if(_w >= 700 && _w <= 982){
+            _responsiveConfigTablet();
+        }else if(_w > 982){
+            _responsiveConfigDesktop();
+        }
     }
 }
 
+
+
+function _responsiveConfigMobileH(){
+    //Banner Services
+    $('.container_services_img_left').css("display", "none");
+    $('.container_services_card_center').removeClass("col-6");
+    $('.container_services_card_center').addClass("col-12");
+    $('.container_services_img_right').css("display", "none");
+    //Banner Services
+}
+
+function _responsiveConfigTablet(){
+    //Banner Services
+    $('.container_services_img_left').css("display", "none");
+    $('.container_services_card_center').removeClass("col-6");
+    $('.container_services_card_center').addClass("col-12");
+    $('.container_services_img_right').css("display", "none");
+    //Banner Services
+}
+
+function _responsiveConfigDesktop(){
+    //Banner Services
+    $('.container_services_img_left').css("display", "block");
+    $('.container_services_card_center').removeClass("col-12");
+    $('.container_services_card_center').addClass("col-6");
+    $('.container_services_img_right').css("display", "block");
+    //Banner Services
+}
 
 function _NavbarController(_t, _w, _h){
     //Color
