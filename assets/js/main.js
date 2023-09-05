@@ -145,6 +145,7 @@ function _responsiveConfigMobileH(){
     //KPI
     //Rates
     $('.container_col_rate_service').removeClass("col");
+    $('.container_col_rate_service').removeClass("col-6");
     $('.container_col_rate_service').addClass("col-12");
     //Rates
 }
@@ -169,6 +170,11 @@ function _responsiveConfigTablet(){
     $('.cointainer_kpi_text').css("transform", "translateX(24%)");
     $('.cointainer_kpi_text').css("margin-top", "45px");
     //KPI
+    //Rates
+    $('.container_col_rate_service').removeClass("col");
+    $('.container_col_rate_service').removeClass("col-12");
+    $('.container_col_rate_service').addClass("col-6");
+    //Rates
 }
 
 function _responsiveConfigDesktop(){
@@ -191,6 +197,11 @@ function _responsiveConfigDesktop(){
     $('.cointainer_kpi_text').css("transform", "translateX(+40%)");
     $('.cointainer_kpi_text').css("margin-top", "55px");
     //KPI
+    //Rates
+    $('.container_col_rate_service').removeClass("col-6");
+    $('.container_col_rate_service').removeClass("col-12");
+    $('.container_col_rate_service').addClass("col");
+    //Rates
 }
 
 function _NavbarController(_t, _w, _h){
