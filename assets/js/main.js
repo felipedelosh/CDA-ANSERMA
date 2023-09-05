@@ -88,27 +88,27 @@ function _responsiveRefresh(){
 
 
     if(iphoneMiniH){   
-        //alert("MobileOP1 horizontal");
+        _responsiveConfigMobileH();
     }else if(iphoneProH){
-        //alert("MobileOP2 horizontal");
+        _responsiveConfigMobileH();
     }else if(iphone5SEH){
-        //alert("MobileOP3 horizontal");
+        _responsiveConfigMobileH();
     }else if(iphone678PlUSH){
-        //alert("MobileOP4 horizontal");
+        _responsiveConfigMobileH();
     }else if(iphoneXH){
-        //alert("MobileOP5 horizontal");
+        _responsiveConfigMobileH();
     }else if(iphoneXRH){
-        //alert("MobileOP6 horizontal");
+        _responsiveConfigMobileH();
     }else if(iphoneSEH){
-        //alert("MobileOP7 horizontal");
+        _responsiveConfigMobileH();
     }else if(kindleH){
-        //alert("MobileOP8 horizontal");
+        _responsiveConfigTablet();
     }else if(androidBasicH){;
-        //alert("MobileOP9 horizontal");
+        _responsiveConfigMobileH();
     }else if(androidPixelH){
-        //alert("MobileOP10 horizontal");
+        _responsiveConfigMobileH();
     }else if(notDisplayH){
-        //alert("MobileOP11 horizontal");
+        _responsiveConfigMobileH();
     }else{
         //alert("DEFAULT WINDOW SIZE:\n"+"H:"+_h+";"+"W;"+_w);
         if (_w < 700) {
